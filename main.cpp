@@ -17,7 +17,7 @@ int main()
 {
 	InferenceParams params;
 	params.Async = true;
-	params.modelFileName = "E:/Project/pretrained/yolov8m.engine";
+	params.modelFileName = "yolov8m.engine";
 	params.buildType = BuilderFlag::kTF32;
 	Inference inf = Inference(params);
 	/*if (!inf.build())
